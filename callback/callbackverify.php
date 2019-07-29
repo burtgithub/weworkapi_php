@@ -3,8 +3,8 @@ include_once "WXBizMsgCrypt.php";
 
 // 假设企业号在公众平台上设置的参数如下
 $encodingAesKey = "jWmYm7qr5nMoAUwZRjGtBxmz3KA1tkAj3ykkR6q2B2C";
-$token = "QDG6eK";
-$receiveid = "wx5823bf96d3bd56c7";
+$token = "123";
+$receiveid = "wwe8fbcbce71addbdf";
 
 
 $wxcpt = new WXBizMsgCrypt($token, $encodingAesKey, $receiveid);
